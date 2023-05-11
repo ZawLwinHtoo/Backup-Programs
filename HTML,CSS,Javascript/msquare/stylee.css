@@ -1,0 +1,55 @@
+/* 
+    div {  
+    color: inherit;
+    font-size: 20px;
+     text-align: center; 
+    }
+    .typeA {
+
+    }
+    #typeA {
+    
+    }
+    .~~{
+        font-family: cutsom fonts,~~,~~,~~ ;
+        font-weight: ~~;
+        height:~~px
+        width: ~~px
+        display: inline-block;
+        background-color: blue;
+        padding-: ~~px(top) ~~px(left-right) ~~px(bottom) ;
+        border-top-style: ~~px;
+        border-width: ~~px;
+        border-color: ;
+        border-radius: ~~~px ;
+        border: 5px solid red ;
+        margin: ~~px;
+        text-decoration: ~~;
+        outline: none; 
+        margin: 0 auto ;
+        max-width: ~~`; 
+        display: none;
+        overflow: hidden, scorll ;
+        transform: rotate(69deg) ;
+        z-index: 1;  greater index will be above other
+    }
+
+    .~~:hover{
+        pseudo-classes
+    }
+
+    .~~{
+        display: flex;
+        flex-direction: ~~;
+        justify-content: ~~;
+        flex-wrap: ~~;
+        align-items: ~~; 
+    }
+@media (max-width: 700px) {             if less than 700px,website will show the following css
+    .~~ {
+        display: none ;
+    }
+
+    CSS order= top = low priority
+             = bottom= first priority
+*/

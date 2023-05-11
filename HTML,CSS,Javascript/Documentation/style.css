@@ -1,0 +1,43 @@
+.left{
+    display: inline-block;
+    background-color: white;
+    width: 25%;
+}
+
+.right{
+    display: inline-block;
+    width: 75%;
+}
+
+
+.leftsmall{
+    color: skyblue;
+    font-size: x-small;
+    display: block;
+    margin: 3px;
+}
+
+.header{
+    margin: 7px 4px 5px;
+}
+
+.heads{
+    margin: 0px 0px 0px;
+    background-color: black;
+    color: white;
+}
+
+.text{
+    font-size: xx-small;
+}
+
+.code{
+    color: red;
+    font-size: 6px;
+    margin: 0px;
+}
+
+.container{
+        display: flex; /* equal height of the children */
+        flex-direction: row;
+}

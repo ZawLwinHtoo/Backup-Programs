@@ -1,0 +1,156 @@
+
+
+
+.footer{
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    padding: 40px;
+}
+
+.logocontainer{
+
+ }
+.logo{
+}
+
+.left{
+    display:inline-block;
+    width: 50%;   
+}
+
+.inner {
+    width:70%;
+
+}
+
+.right{
+    display:inline-block;
+    width: 50%;
+}
+
+.appstore{
+    width:50%;
+
+}
+
+.googlestore{
+    width: 50%;
+}
+
+.rightimage{
+    width: 150%;
+}
+
+.menuitem{
+    text-decoration:none;
+    color: inherit;
+    margin-left:20px;
+    font-size: 15px;
+}
+
+.menuitem:hover{
+    border-bottom-style: solid;
+}
+
+.blockelement{
+    display:block ;
+    margin: 20px 0px ;
+    border: none;
+    background-color: lightgray ;
+    height: 35px;
+    width: 220px;
+    border-radius: 13px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.signinbutton{
+    background-color: #0a7cff;
+    border-radius: 23px;
+    border-style: none;
+    color: white; 
+    padding: 2px 20px 0px;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+}
+
+.maincontainer {
+    max-width: 1024px;
+    margin: 0 auto ;
+}
+
+.header{
+    justify-content: space-between;
+    display: flex;
+}
+
+.titleheader {
+    margin-bottom: 50px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.inputspan{
+    margin-bottom: 20px;
+}
+
+.password {
+    margin-bottom: 20px;
+}
+
+.mobilemenucontainer{
+    display: none;
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:767px) {
+    .mobilemenucontainer {
+        display: block;
+    }
+    .menucontainer{
+        display: none;
+    }
+    .left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .right{
+        width: 100%;
+        overflow: scroll;
+        text-align: center;
+    }
+    .inner{
+        width: 64%;
+        margin: 0 auto;
+    }
+    .rightimage{
+        margin: 0 -50%;
+    }
+
+}
+
+@media(max-width:375px) {
+    .inner{
+        width:95%;
+    }
+    .footer{
+        margin-top: 30px;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
